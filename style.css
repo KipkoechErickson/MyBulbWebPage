@@ -364,7 +364,7 @@ label{
 
 /*----------------------------------------------------abou_us page styling--------------------------------------------------*/
 .containerAboutUs{
-	background-image: url("Images/image1.webp");
+background-image: url("Images/image1.webp");
 	height: 50vh;
 	background-repeat: no-repeat;
 	background-size: cover;
