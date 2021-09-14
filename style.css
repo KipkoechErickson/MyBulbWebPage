@@ -102,6 +102,8 @@
 }
 .small-container{
 	background: #F6F6F6;
+	padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 /*--------------------------------------------The Product Section---------------------------------------------------------*/
@@ -109,12 +111,11 @@
 	max-width: 1080px;
 	margin: auto;
 	text-align: center;
-	
-	
 }
 .product .col-1{
 	width: 60%;
-	margin: 100px auto 100px auto;
+	padding:100px auto 100px auto;
+	margin: auto;
 }
 .productTitle{
 	color: #ff0000;
