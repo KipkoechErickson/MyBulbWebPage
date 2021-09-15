@@ -207,6 +207,7 @@
 .buyNow{
 	background: radial-gradient(#fff, #ffd6d6);
     margin-top: 50px;
+	
 }
 .buyNow-container, .contactUs-container, .aboutUs-container{
 	max-width: 1080px;
@@ -430,4 +431,82 @@ label{
 	font-size: 75px;
 	color: #ff0000;
 	
+}
+
+
+
+@media only screen and (max-width: 800px) {
+	*{
+		align-items: center;
+		text-align: center;
+	}
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        text-align: center;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+}
+nav ul li{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li a{
+    color: white;
+}
+.menu-icon{
+    display: block;
+}
+.container .hero-section{
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	padding: 25px;
+	margin: 50px 10px;
+	
+}
+.hero-section h1{
+	padding-bottom: 5px;
+	color: #FFFFFF;
+	font-size: 35px;
+}
+.hero-section h2{
+	color: aqua;
+	font-size: 25px;
+	margin-bottom: 10px;
+	
+}
+.hero-section .heroDesc{
+	font-size: 12px;
+    font-weight: 500;
+	color: white;
+	margin-bottom: 20px;
+}
+.hero-section .appDownloadBtn, .buynowbtn{
+	color: white;
+	text-decoration: none;
+	padding: 8px 32px;
+	background: #FE0000;
+	border-radius: 50px;
+	border: none;
+	margin-top: 20px;
+	transition: 0.5s ease;
+}
+.hero-section .appDownloadBtn:hover,.buynowbtn:hover{
+	background: white;
+	color: #ff0000;
+}
+.small-container{
+	background: #F6F6F6;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.buyNow{
+    padding-bottom: 50px;
+	align-items: center;
+	
+}
 }
